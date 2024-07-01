@@ -79,8 +79,8 @@
             <h1 class="display-3 text-white mb-3 animated slideInDown">A Propos de nous</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Accueil</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Accueil</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="service.html">Pages</a></li>
                     <li class="breadcrumb-item text-white active" aria-current="page">A Propos</li>
                 </ol>
             </nav>
@@ -95,7 +95,7 @@
             <div class="row g-5 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.png" style="object-fit: cover;" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
@@ -209,7 +209,7 @@
                 </div>
                 <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/FUTURE.png" style="object-fit: cover;" alt="">
                     </div>
                 </div>
             </div>
@@ -246,7 +246,7 @@
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="team-item p-4">
                     <div class="overflow-hidden mb-4">
-                        <img class="img-fluid" src="img/Anatole.png" alt="">
+                        <img class="img-fluid" src="img/ANATOLE.png" alt="">
                     </div>
                     <h5 class="mb-0"style="text-align: center;">Mr Anatole OBAM</h5>
                     <p style="text-align: center;">Associé</p>
@@ -263,7 +263,7 @@
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                 <div class="team-item p-4">
                     <div class="overflow-hidden mb-4">
-                        <img class="img-fluid" src="img/Franck.png" alt="">
+                        <img class="img-fluid" src="img/FRANCK.png" alt="">
                     </div>
                     <h5 class="mb-0" style="text-align: center;">Mr Franck MOUSSAVOU</h5>
                     <p style="text-align: center;">Associé</p>
@@ -299,15 +299,14 @@
 </div>
 <!-- Team End -->
         
-
-   <!-- Footer Start -->
-   <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
+<!-- Footer Start -->
+<div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
     <div class="container py-5">
         <div class="row g-5">
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-light mb-4">Adresse</h4>
                 <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Matanda, Port-Gentil, GA</p>
-                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+241 773 908 01</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i><a href="tel:+241 773 908 01">+241 773 908 01</a></p>
                 <p class="mb-2"><i class="fa fa-envelope me-3"></i>contact@bikere.org</p>
                 <div class="d-flex pt-2">
                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
@@ -318,10 +317,11 @@
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-light mb-4">Services</h4>
-                <a class="btn btn-link" href="">Produits Roulés</a>
-                <a class="btn btn-link" href="">Produits concassés</a>
-                <a class="btn btn-link" href="">Gravier Concassé</a>
-                <a class="btn btn-link" href="">Solutions Logistiques</a>
+                <a class="btn btn-link" href="">Sables</a>
+                <a class="btn btn-link" href="">Graviers</a>
+                <a class="btn btn-link" href="">Remblais</a>
+                <a class="btn btn-link" href="">Latérite</a>
+                <a class="btn btn-link" href="">Solutions logistiques</a>
                 <a class="btn btn-link" href="">Solutions sectorielles</a>
             </div>
             <div class="col-lg-3 col-md-6">
@@ -336,8 +336,13 @@
                 <h4 class="text-light mb-4">Newsletter</h4>
                 <p>Abonnez-vous à notre Newsletter pour ne manquer aucune de nos offres et services.</p>
                 <div class="position-relative mx-auto" style="max-width: 400px;">
-                    <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Votre e-mail">
-                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">S'abonner</button>
+                    <form  action="https://formspree.io/f/mldrrzqn"
+                    method="POST">
+                    <input class="form-control border-0 w-100 py-3 ps-4 pe-5" name="Newsletter" type="text" placeholder="Votre e-mail">
+                    <div class="col-12">
+                        <button class="btn btn-primary w-100 py-3" type="submit">S'Abonner</button>
+                    </div>
+                </form>
                 </div>
             </div>
         </div>
@@ -346,7 +351,7 @@
         <div class="copyright">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#">BIKENE</a>, Tous droits réservés.
+                    &copy; <a class="border-bottom" href="#">BIKERE</a>, Tous droits réservés.
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->

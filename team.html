@@ -79,8 +79,8 @@
             <h1 class="display-3 text-white mb-3 animated slideInDown">Notre équipe</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Accueil</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Accueil</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="service.html">Pages</a></li>
                     <li class="breadcrumb-item text-white active" aria-current="page">Notre équipe</li>
                 </ol>
             </nav>
@@ -116,7 +116,7 @@
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="team-item p-4">
                     <div class="overflow-hidden mb-4">
-                        <img class="img-fluid" src="img/Anatole.png" alt="">
+                        <img class="img-fluid" src="img/ANATOLE.png" alt="">
                     </div>
                     <h5 class="mb-0"style="text-align: center;">Mr Anatole OBAM</h5>
                     <p style="text-align: center;">Associé</p>
@@ -133,7 +133,7 @@
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                 <div class="team-item p-4">
                     <div class="overflow-hidden mb-4">
-                        <img class="img-fluid" src="img/Franck.png" alt="">
+                        <img class="img-fluid" src="img/FRANCK.png" alt="">
                     </div>
                     <h5 class="mb-0" style="text-align: center;">Mr Franck MOUSSAVOU</h5>
                     <p style="text-align: center;">Associé</p>
@@ -206,8 +206,13 @@
                 <h4 class="text-light mb-4">Newsletter</h4>
                 <p>Abonnez-vous à notre Newsletter pour ne manquer aucune de nos offres et services.</p>
                 <div class="position-relative mx-auto" style="max-width: 400px;">
-                    <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Votre e-mail">
-                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">S'abonner</button>
+                    <form  action="https://formspree.io/f/mldrrzqn"
+                    method="POST">
+                    <input class="form-control border-0 w-100 py-3 ps-4 pe-5" name="Newsletter" type="text" placeholder="Votre e-mail">
+                    <div class="col-12">
+                        <button class="btn btn-primary w-100 py-3" type="submit">S'Abonner</button>
+                    </div>
+                </form>
                 </div>
             </div>
         </div>

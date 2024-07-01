@@ -228,7 +228,6 @@
 
 
 
-
 <!-- Footer Start -->
 <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
     <div class="container py-5">
@@ -266,8 +265,13 @@
                 <h4 class="text-light mb-4">Newsletter</h4>
                 <p>Abonnez-vous à notre Newsletter pour ne manquer aucune de nos offres et services.</p>
                 <div class="position-relative mx-auto" style="max-width: 400px;">
-                    <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Votre e-mail">
-                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">S'abonner</button>
+                    <form  action="https://formspree.io/f/mldrrzqn"
+                    method="POST">
+                    <input class="form-control border-0 w-100 py-3 ps-4 pe-5" name="Newsletter" type="text" placeholder="Votre e-mail">
+                    <div class="col-12">
+                        <button class="btn btn-primary w-100 py-3" type="submit">S'Abonner</button>
+                    </div>
+                </form>
                 </div>
             </div>
         </div>
